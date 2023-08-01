@@ -1,8 +1,9 @@
-# React + Vite
+# React Portfolio
+## Description
+I made a portfolio utilizing React with form authentication and dynamic rendering. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshot
+![Image](./screenshot.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Link
+[Link](https://main--calm-lollipop-4b0d45.netlify.app/)
