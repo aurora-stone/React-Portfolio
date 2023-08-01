@@ -17,9 +17,13 @@ export default function Contact() {
   }
   const validateEmail = (state) => {
     const pattern = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-    const regex = new RegExp(state.target.value)
-    if (regex.test(pattern)){
+    const regex = new RegExp(pattern)
+    if (regex.test(state.target.value)){
       console.log(true)
+    }
+    else {
+      console.log(false)
+      setError("Not a valid email")
     }
   }
   return (
